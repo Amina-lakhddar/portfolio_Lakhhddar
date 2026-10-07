@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open contact.html",
+            "file": "c:\\Users\\DELL\\Downloads\\starter-portfolio-6ac3ff801e590424969106\\starter-portfolio\\site\\contact.html"
+        }
+    ]
+}
