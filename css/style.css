@@ -191,7 +191,14 @@ a {
   border: 1px solid var(--couleur-bordure);
   border-radius: var(--rayon);
   font-weight: 600;
-  background-color: rgb(162, 75, 5);
+}
+.comp1{
+ background-color: #7b3202b2;
+
+}
+.comp2{
+  
+ background-color: #e99054b2;
 }
 
 /* ---------- 7. Projets ---------- */
@@ -275,7 +282,8 @@ a {
 
 .propos_contenu h1{
   margin-left: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  
   
 }
 .propos_contenu h2{
@@ -285,9 +293,6 @@ a {
 
 .propos_contenu {
  margin: 15px;
- display: flex;
- flex-direction: column;
-  align-items: center;
  height: 0;
  margin-bottom: 20%;
 
@@ -305,7 +310,7 @@ a {
   
 }
 .propos_individduel{
-  background-color: rgb(243, 236, 225);
+  background-color: rgba(243, 236, 225, 0.481);
   padding: 20px;
   border-radius: 30px;
   box-shadow: 10px 10px rgb(125, 124, 124);
