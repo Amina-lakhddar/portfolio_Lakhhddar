@@ -41,7 +41,7 @@ body {
   font-size: 17px;
   line-height: 1.6;
   color: var(--couleur-texte);
-  background-color: var(--couleur-fond);
+  background-color:#f7f2eec6;
 }
 
 h1,
@@ -81,7 +81,7 @@ a {
   font-size: 16px;
   font-weight: 600;
   color: #ffffff;
-  background-color: var(--couleur-principale);
+  background-color:#692c04e5;
   cursor: pointer;
 }
 
@@ -93,8 +93,10 @@ a {
 /* ---------- 3. En-tête ---------- */
 .en-tete {
   border-bottom: 1px solid var(--couleur-bordure);
+  border-bottom-right-radius:50px;
   height: 10%;
   
+  background-color:#692c04e9;
 }
 
 .en-tete__contenu {
@@ -107,7 +109,7 @@ a {
 .logo {
   font-size: 20px;
   font-weight: 700;
-  color: #692d04;
+  color: #f0975c;
 }
 
 .menu {
@@ -117,7 +119,7 @@ a {
 
 .menu a {
   font-size: 16px;
-  color: #692c0492;
+  color: #f5ba92ba;
 }
 
 /* ---------- 4. Présentation ---------- */
@@ -139,11 +141,12 @@ a {
 .surtitre {
   margin-bottom: 8px;
   font-weight: 600;
-  color: var(--couleur-principale);
+  color:#924817de;
 }
 
 .presentation h1 {
   font-size: 56px;
+  color:black;
 }
 
 .metier {
@@ -325,5 +328,7 @@ a {
   border-top: 1px solid var(--couleur-bordure);
   font-size: 15px;
   text-align: center;
-  color: var(--couleur-texte-doux);
+  color: #f5ba92ba;
+  background-color:#692c04e9;
+  border-top-left-radius: 50px;
 }
